@@ -1,0 +1,115 @@
+
+#section_history{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    }
+    
+    .section_img{
+    width: 50%;
+    height: 60vh;
+    background-image: url("../../components/images/photo_2021-12-25_01-50.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .section_text{
+    width: 50%;
+    height: 60vh;
+    background-color: #1d1d1d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .history_text{
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    }
+    
+    .btn1{
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    }
+    
+    .btn1:hover{
+    background-color: aqua;
+    color: brown;
+    }
+    
+    .section_block {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    }
+    
+    .mini_box1,.mini_box2, .mini_box3{
+    width: 33.3%;
+    height: 60vh;
+    border: 1px solid black;
+    }
+    
+    .mini_box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .mini_box1 p{
+    width: 70%;
+    text-align: center;
+    }
+    
+    .mini_box1 h2 {
+    padding: 20px 0;
+    }
+    
+    .mini_box2{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .mini_box2 p{
+    width: 70%;
+    text-align: center;
+    }
+    
+    .mini_box2 h2 {
+    padding: 20px 0;
+    }
+    
+    .mini_box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .mini_box3 p{
+    width: 70%;
+    text-align: center;
+    }
+    
+    .mini_box3 h2 {
+    padding: 20px 0;
+    }
+    
+    footer{
+    padding: 20px 0;
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    }
